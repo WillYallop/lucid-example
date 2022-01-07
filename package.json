@@ -1,0 +1,19 @@
+{
+  "name": "lucid-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lucid.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.4"
+  }
+}
