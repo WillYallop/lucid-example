@@ -1,4 +1,3 @@
-
 {
     "compilerOptions": {
         "module": "commonjs",
@@ -6,13 +5,16 @@
         "target": "es2021",
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "server",
-        "rootDir": "./",
+        "outDir": "build",
+        "rootDir": "lucid",
         "typeRoots": [
             "./node_modules/@types"
         ]
     },
     "exclude": [
-        "node_modules",
-      ]
+        "node_modules"
+    ],
+    "include": [
+        "lucid"
+    ]
 }

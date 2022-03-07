@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "8ed58600-8759-11ec-b27b-711448583353",
+        "name": "blogs",
+        "template_path": "page.liquid"
+    },
+    {
+        "_id": "e66e7340-8759-11ec-ad27-1910a00a380b",
+        "name": "news",
+        "template_path": "posts/news.liquid"
+    },
+    {
+        "_id": "96578fd0-875a-11ec-99ab-bd8ce836d357",
+        "name": "video",
+        "template_path": "page.liquid"
+    }
+]

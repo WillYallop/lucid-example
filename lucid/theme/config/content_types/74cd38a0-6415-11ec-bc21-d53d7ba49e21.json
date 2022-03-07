@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "96d62ca0-839f-11ec-ab61-eb8dfd3b8366",
+        "name": "Title",
+        "type": "text",
+        "config": {
+            "max": "100",
+            "default": "I am the title"
+        },
+        "parent": "root"
+    },
+    {
+        "_id": "be712e90-839f-11ec-b476-1bb7c2b0e2b7",
+        "name": "Slider",
+        "type": "repeater",
+        "config": {
+            "max": "12"
+        },
+        "parent": "root"
+    },
+    {
+        "_id": "e66d8a60-839f-11ec-8557-efc42e398d16",
+        "name": "Title",
+        "type": "text",
+        "config": {
+            "min": "2",
+            "default": "Slide title"
+        },
+        "parent": "be712e90-839f-11ec-b476-1bb7c2b0e2b7"
+    },
+    {
+        "_id": "640fb600-83a0-11ec-b87b-39e0c3c068bd",
+        "name": "Slide List",
+        "type": "repeater",
+        "config": {
+
+        },
+        "parent": "be712e90-839f-11ec-b476-1bb7c2b0e2b7"
+    },
+    {
+        "_id": "8eb70d90-83a0-11ec-a290-b1b54472ed94",
+        "name": "Price",
+        "type": "number",
+        "config": {
+            "min": "5",
+            "default": "20"
+        },
+        "parent": "640fb600-83a0-11ec-b87b-39e0c3c068bd"
+    }
+]

@@ -1,0 +1,26 @@
+<div id="id123" class="componentBlock">
+    <div class="compWrapper">
+        <h1 class="componentTitle">{{ title }}</h1>
+        <div class="grid">
+            {% for slide in slider %}
+                <div class="card">
+                    <img src={% lucidAsset "/images/tree.jpg" %}/>
+                    <div class="cardBody">
+                        <h3>{{ slide.title }}</h3>
+                        <ul>
+                            {% for listItem in slide.slide_list %}
+                                <li>{{ listItem.price }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% lucidScript { 
+    "src": "/js/index.js",
+    "load": "visible",
+    "visibleID": "id123"
+} %}

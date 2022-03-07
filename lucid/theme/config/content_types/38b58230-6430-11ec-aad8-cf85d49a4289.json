@@ -1,0 +1,12 @@
+[
+    {
+        "_id": "96d62ca0-839f-11ec-ab61-eb8dfd3b8366",
+        "name": "Header Title",
+        "type": "text",
+        "config": {
+            "max": "100",
+            "default": "I am the title"
+        },
+        "parent": "root"
+    }
+]
