@@ -1,13 +1,11 @@
 module.exports = {
-    https: false,
-    domain: 'lucid.local',
+    build: './dist',
+    allowOrigins: [
+        "*"
+    ],
     directories: {
         theme: './lucid/theme',
-        templates: './templates',
-        temp: './temp',
-        // Dists 
-        dist: './dist/app',
-        assets_dist: './dist/assets'
+        templates: './templates'
     },
     database: {
         user: process.env.DB_USER,

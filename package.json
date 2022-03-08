@@ -5,7 +5,7 @@
   "main": "lucid/index.ts",
   "scripts": {
     "dev": "ts-node-dev lucid/index.ts",
-    "start": "lucid --start"
+    "start": "ts-node lucid/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.8",
-    "nodemon": "^2.0.15",
     "ts-node": "^10.7.0",
     "ts-node-dev": "^1.1.8",
     "tslint": "^6.1.3",
