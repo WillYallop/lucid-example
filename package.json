@@ -5,6 +5,7 @@
   "main": "lucid/index.ts",
   "scripts": {
     "dev": "ts-node-dev lucid/index.ts",
+    "autolink": "cd ../lucid && npm link && cd ../lucid-example && npm link lucid",
     "start": "ts-node lucid/index.ts"
   },
   "author": "",
