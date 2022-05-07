@@ -11,7 +11,7 @@ module.exports = {
             secret_access_key: process.env.S3_SECRET_ACCESS_KEY
         }
     },
-    allowOrigins: [
+    allowOrigins: [ // cores whitelist
         "*"
     ],
     directories: {
